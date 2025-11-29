@@ -7,7 +7,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -18,7 +18,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -29,7 +29,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -40,7 +40,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -51,7 +51,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -62,7 +62,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -73,7 +73,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 
     {
@@ -84,7 +84,7 @@ const products = [
         old_price: "549$",
         price_after_sale: "477.85$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/favorite.png"
+        fav: "./assets/images/Favorite.png"
     },
 ]
 
