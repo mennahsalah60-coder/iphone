@@ -11,7 +11,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 2,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
@@ -22,7 +22,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 3,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
@@ -33,7 +33,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 4,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
@@ -44,7 +44,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 5,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
@@ -55,7 +55,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 6,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
@@ -66,7 +66,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 7,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
@@ -77,7 +77,7 @@ const products = [
     },
 
     {
-        id: 1,
+        id: 8,
         h2: "iPhone 9",
         h3: "An apple mobile which is nothing like apple",
         image: "./assets/images/iphone.png",
