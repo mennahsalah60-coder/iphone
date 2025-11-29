@@ -1,88 +1,96 @@
 const products = [
     {
         id: 1,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Samsung Galaxy",
+        h3: "6.8-inch AMOLED display, Snapdragon 8 Gen 3, 200MP camera.",
+        more: "Read More",
+        image: "./assets/images/one.webp",
+        old_price: "1499$",
+        price_after_sale: "1299$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 2,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Apple iPhone15 Pro",
+        h3: "A17 Pro chip, titanium design, 48MP camera, long battery life.",
+        more: "Read More",
+        image: "./assets/images/iphone_14-pro-max_low.webp",
+        old_price: "1599$",
+        price_after_sale: "1499$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 3,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "MacBook Air M3",
+        h3: "13-inch Retina display lorem, M3 chip, 8GB RAM, 256GB  SSD.",
+        more: "Read More",
+        image: "./assets/images/mac1.png",
+        old_price: "1000$",
+        price_after_sale: "900$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 4,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Lenovo Legion 7",
+        h3: "AMD Ryzen 9, RTX 4070, 16GB RAM, 1TB SSD, 16-inch QHD display.",
+        more: "Read More",
+        image: "./assets/images/four.webp",
+        old_price: "2000$",
+        price_after_sale: "1500$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 5,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Anker 20000mAh Power Bank",
+        h3: "High-capacity lorem portable charger with fast charging.",
+        more: "Read More",
+        image: "./assets/images/five.webp",
+        old_price: "300$",
+        price_after_sale: "250$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 6,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Sony WH-1000XM5 Headphones",
+        h3: "Industry-leading noise-canceling wireless headphones.",
+        more: "Read More",
+        image: "./assets/images/six.webp",
+        old_price: "3000$",
+        price_after_sale: "2000$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 7,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Logitech MX Master 3S Mouse",
+        h3: "Ergonomic wireless mouse with fast scrolling.",
+        more: "Read More",
+        image: "./assets/images/seven.webp",
+        old_price: "1500$",
+        price_after_sale: "1000$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
 
     {
         id: 8,
-        h2: "iPhone 9",
-        h3: "An apple mobile which is nothing like apple",
-        image: "./assets/images/iphone.png",
-        old_price: "549$",
-        price_after_sale: "477.85$",
+        h2: "Apple AirPods Pro (2nd Gen)",
+        h3: "Active noise cancellation, personalized spatial audio",
+        more: "Read More",
+        image: "./assets/images/eight.webp",
+        old_price: "5000$",
+        price_after_sale: "2500$",
         cart: "./assets/images/cart.png",
         fav: "./assets/images/Favorite.png"
     },
@@ -93,10 +101,11 @@ const ProductsContainer = document.querySelector(".products-container")
 while (i < products.length) {
     ProductsContainer.innerHTML +=
         `<div class="card">
-            <img class="card-img-top p-2 rounded-4" src="${products[i].image}">
+            <img class="card-img-top p-2 rounded-4 h-75" src="${products[i].image}">
             <div class="card-body">
-                <h2 class= "card-title fs-2">${products[i].h2}</h2>
+                <h2 class= "card-title">${products[i].h2}</h2>
                 <h3 class="card-text text-light-emphasis fs-5">${products[i].h3}</h3>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fs-5">${products[i].more}</a>
                 <p class="card-text fs-2 text-success">${products[i].price_after_sale}
                     <span  class="fs-4 text-decoration-line-through text-danger">${products[i].old_price}</span>
                 </p>
