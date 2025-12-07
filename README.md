@@ -1,5 +1,3 @@
-"# iphone" 
-
 # PhoneShop
 
 ## Project Overview  
@@ -22,6 +20,4 @@ This is a frontend web page (static site) named **PhoneShop** — part of a prac
 ## Live Demo  
 LiveDemo:  
 [PhoneShop Live Demo](https://mennahsalah60-coder.github.io/iphone/)  
----
-
-*Thank you for visiting — feel free to fork or use this template for your own practice projects!*  
+--- 
