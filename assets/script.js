@@ -7,8 +7,8 @@ const products = [
         image: "./assets/images/one.webp",
         old_price: "1499$",
         price_after_sale: "1299$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -19,8 +19,8 @@ const products = [
         image: "./assets/images/iphone_14-pro-max_low.webp",
         old_price: "1599$",
         price_after_sale: "1499$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -31,8 +31,8 @@ const products = [
         image: "./assets/images/mac1.png",
         old_price: "1000$",
         price_after_sale: "900$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -44,7 +44,7 @@ const products = [
         old_price: "2000$",
         price_after_sale: "1500$",
         cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -55,8 +55,8 @@ const products = [
         image: "./assets/images/five.webp",
         old_price: "300$",
         price_after_sale: "250$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -67,8 +67,8 @@ const products = [
         image: "./assets/images/six.webp",
         old_price: "3000$",
         price_after_sale: "2000$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -79,8 +79,8 @@ const products = [
         image: "./assets/images/seven.webp",
         old_price: "1500$",
         price_after_sale: "1000$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 
     {
@@ -91,8 +91,8 @@ const products = [
         image: "./assets/images/eight.webp",
         old_price: "5000$",
         price_after_sale: "2500$",
-        cart: "./assets/images/cart.png",
-        fav: "./assets/images/Favorite.png"
+        cart: "./assets/images/Group 1.svg",
+        fav: "./assets/images/Favorite (1).svg"
     },
 ]
 
